@@ -1,6 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { PAPERS } from '../src/data/papers';
+import { getPaperSeoPath } from '../src/utils/seoUtils';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -12,22 +14,35 @@ async function prerender() {
   // Static shell built by vite build
   const template = fs.readFileSync(path.resolve(distPath, 'index.html'), 'utf-8');
   
-  // Read papers to get dynamic routes
-  const papersFileContent = fs.readFileSync(path.resolve(__dirname, '../src/data/papers.ts'), 'utf-8');
-  const paperIdRegex = /id:\s*['"]([^'"]+)['"]/g;
-  const paperIds: string[] = [];
-  let match;
-  while ((match = paperIdRegex.exec(papersFileContent)) !== null) {
-    if (!paperIds.includes(match[1])) paperIds.push(match[1]);
-  }
-
-  const routesToPrerender = [
+  const staticRoutes = [
     '/',
-    '/papers',
     '/nda',
     '/cds',
+    '/nda/previous-year-papers',
+    '/cds/previous-year-papers',
     '/about',
-    ...paperIds.map(id => `/papers/${id}`)
+    '/privacy',
+    '/terms',
+    '/disclaimer'
+  ];
+
+  // Extract year hubs dynamically from papers
+  const ndaYears = Array.from(new Set(PAPERS.filter(p => p.examCode === 'NDA' && p.available).map(p => p.year)));
+  const cdsYears = Array.from(new Set(PAPERS.filter(p => p.examCode === 'CDS' && p.available).map(p => p.year)));
+
+  const yearRoutes = [
+    ...ndaYears.map(year => `/nda/${year}`),
+    ...cdsYears.map(year => `/cds/${year}`)
+  ];
+
+  // Extract canonical paper URLs
+  const publishedPapers = PAPERS.filter(p => p.available);
+  const paperRoutes = publishedPapers.map(p => getPaperSeoPath(p));
+
+  const routesToPrerender = [
+    ...staticRoutes,
+    ...yearRoutes,
+    ...paperRoutes
   ];
 
   // Dynamically import the server entry
@@ -56,9 +71,10 @@ async function prerender() {
     html = html.replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`);
 
     // Determine the output path
-    const filePath = url === '/' 
+    const normalizedUrl = url.endsWith('/') ? url.slice(0, -1) : url;
+    const filePath = normalizedUrl === '' 
       ? path.resolve(distPath, 'index.html')
-      : path.resolve(distPath, `${url.substring(1)}/index.html`);
+      : path.resolve(distPath, `${normalizedUrl.substring(1)}/index.html`);
 
     // Ensure directory exists
     const dir = path.dirname(filePath);

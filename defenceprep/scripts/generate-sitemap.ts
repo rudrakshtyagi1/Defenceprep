@@ -1,57 +1,72 @@
 import fs from 'fs';
 import path from 'path';
-
-// Define static routes
-const staticRoutes = [
-  '/',
-  '/papers',
-  '/nda',
-  '/cds',
-  '/about'
-];
-
-// In a real scenario, this would import from src/data/papers.ts
-// For the build script, we might just parse the papers list or use a JSON
-// Since this script runs in Node before/after Vite build, we can't easily import a .ts file 
-// if it relies on Vite plugins. Let's create a minimal script that can read the papers.
 import { fileURLToPath } from 'url';
+import { PAPERS } from '../src/data/papers';
+import { getSiteUrl, getPaperSeoPath } from '../src/utils/seoUtils';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function generateSitemap() {
   const sitemapPath = path.resolve(__dirname, '../dist/sitemap.xml');
-  const siteUrl = 'https://defenceprep.in';
+  const siteUrl = getSiteUrl();
 
-  // Read papers from data file (using regex to extract paper IDs for simplicity in this script)
-  const papersFileContent = fs.readFileSync(path.resolve(__dirname, '../src/data/papers.ts'), 'utf-8');
-  const paperIdRegex = /id:\s*['"]([^'"]+)['"]/g;
-  
-  const paperIds: string[] = [];
-  let match;
-  while ((match = paperIdRegex.exec(papersFileContent)) !== null) {
-    if (!paperIds.includes(match[1])) {
-        paperIds.push(match[1]);
-    }
-  }
+  const staticRoutes = [
+    '/',
+    '/nda',
+    '/cds',
+    '/nda/previous-year-papers',
+    '/cds/previous-year-papers',
+    '/about',
+    '/privacy',
+    '/terms',
+    '/disclaimer'
+  ];
+
+  // Extract year hubs dynamically from papers
+  const ndaYears = Array.from(new Set(PAPERS.filter(p => p.examCode === 'NDA' && p.available).map(p => p.year)));
+  const cdsYears = Array.from(new Set(PAPERS.filter(p => p.examCode === 'CDS' && p.available).map(p => p.year)));
+
+  const yearRoutes = [
+    ...ndaYears.map(year => `/nda/${year}`),
+    ...cdsYears.map(year => `/cds/${year}`)
+  ];
+
+  // Extract canonical paper URLs
+  const publishedPapers = PAPERS.filter(p => p.available);
+  const paperRoutes = publishedPapers.map(p => getPaperSeoPath(p));
 
   const allRoutes = [
     ...staticRoutes,
-    ...paperIds.map(id => `/papers/${id}`)
+    ...yearRoutes,
+    ...paperRoutes
   ];
 
   const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${allRoutes.map(route => `  <url>
-    <loc>${siteUrl}${route}</loc>
-    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+    <loc>${siteUrl}${route === '/' ? '' : route}</loc>
     <changefreq>${route === '/' ? 'daily' : 'weekly'}</changefreq>
-    <priority>${route === '/' ? '1.0' : route.startsWith('/papers/') ? '0.8' : '0.9'}</priority>
+    <priority>${route === '/' ? '1.0' : route.includes('/previous-year-papers') ? '0.9' : '0.8'}</priority>
   </url>`).join('\n')}
 </urlset>`;
 
   fs.writeFileSync(sitemapPath, sitemapContent);
   console.log('✅ Sitemap generated successfully at dist/sitemap.xml');
+
+  // Generate robots.txt
+  const robotsPath = path.resolve(__dirname, '../dist/robots.txt');
+  const robotsContent = `User-agent: *
+Allow: /
+Disallow: /test/
+Disallow: /results/
+Disallow: /performance/
+Disallow: /dev/
+
+Sitemap: ${siteUrl}/sitemap.xml
+`;
+  fs.writeFileSync(robotsPath, robotsContent);
+  console.log('✅ robots.txt generated successfully at dist/robots.txt');
 }
 
 generateSitemap().catch(console.error);

@@ -9,6 +9,9 @@ import NDAPage from './pages/NDAPage';
 import CDSPage from './pages/CDSPage';
 import PaperLandingPage from './pages/PaperLandingPage';
 import AboutPage from './pages/AboutPage';
+import ExamHubPage from './pages/ExamHubPage';
+import YearHubPage from './pages/YearHubPage';
+import { PrivacyPage, TermsPage, DisclaimerPage } from './pages/LegalPages';
 import { Routes, Route } from 'react-router-dom';
 
 export function render(url: string, helmetContext: any) {
@@ -20,10 +23,15 @@ export function render(url: string, helmetContext: any) {
             <Route element={<MainLayout />}>
               <Route path="/" element={<HomePage />} />
               <Route path="/papers" element={<PapersPage />} />
-              <Route path="/papers/:paperId" element={<PaperLandingPage />} />
+              <Route path="/:exam/:year/:session/:subject" element={<PaperLandingPage />} />
+              <Route path="/:exam/previous-year-papers" element={<ExamHubPage />} />
+              <Route path="/:exam/:year" element={<YearHubPage />} />
               <Route path="/nda" element={<NDAPage />} />
               <Route path="/cds" element={<CDSPage />} />
               <Route path="/about" element={<AboutPage />} />
+              <Route path="/privacy" element={<PrivacyPage />} />
+              <Route path="/terms" element={<TermsPage />} />
+              <Route path="/disclaimer" element={<DisclaimerPage />} />
             </Route>
           </Routes>
         </StaticRouter>

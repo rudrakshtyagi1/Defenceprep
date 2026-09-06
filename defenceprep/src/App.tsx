@@ -12,9 +12,15 @@ const NDAPage = lazy(() => import('./pages/NDAPage'));
 const CDSPage = lazy(() => import('./pages/CDSPage'));
 const PaperLandingPage = lazy(() => import('./pages/PaperLandingPage'));
 const TestPage = lazy(() => import('./pages/TestPage'));
+const ExamHubPage = lazy(() => import('./pages/ExamHubPage'));
+const YearHubPage = lazy(() => import('./pages/YearHubPage'));
+const LegacyPaperRedirect = lazy(() => import('./pages/LegacyPaperRedirect'));
 const ResultsPage = lazy(() => import('./pages/ResultsPage'));
 const PerformancePage = lazy(() => import('./pages/PerformancePage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
+const PrivacyPage = lazy(() => import('./pages/LegalPages').then(m => ({ default: m.PrivacyPage })));
+const TermsPage = lazy(() => import('./pages/LegalPages').then(m => ({ default: m.TermsPage })));
+const DisclaimerPage = lazy(() => import('./pages/LegalPages').then(m => ({ default: m.DisclaimerPage })));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const DevPaperTestPage = lazy(() => import('./pages/DevPaperTestPage'));
 
@@ -57,11 +63,27 @@ function App() {
               <Route element={<MainLayout />}>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/papers" element={<PapersPage />} />
-                <Route path="/papers/:paperId" element={<PaperLandingPage />} />
+                
+                {/* Legacy Backward Compatibility */}
+                <Route path="/papers/:paperId" element={<LegacyPaperRedirect />} />
+                
+                {/* Canonical Paper Landing Pages */}
+                <Route path="/:exam/:year/:session/:subject" element={<PaperLandingPage />} />
+                
+                {/* Hub Pages */}
+                <Route path="/:exam/previous-year-papers" element={<ExamHubPage />} />
+                <Route path="/:exam/:year" element={<YearHubPage />} />
+
+                {/* Exam Info Pages */}
                 <Route path="/nda" element={<NDAPage />} />
                 <Route path="/cds" element={<CDSPage />} />
+                
+                {/* General Pages */}
                 <Route path="/performance" element={<PerformancePage />} />
                 <Route path="/about" element={<AboutPage />} />
+                <Route path="/privacy" element={<PrivacyPage />} />
+                <Route path="/terms" element={<TermsPage />} />
+                <Route path="/disclaimer" element={<DisclaimerPage />} />
                 <Route path="/results/:attemptId" element={<ResultsPage />} />
               </Route>
 

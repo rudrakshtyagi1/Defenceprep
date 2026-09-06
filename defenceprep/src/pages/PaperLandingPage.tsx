@@ -3,17 +3,21 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { PAPERS } from '../data/papers';
 import SEOHead from '../components/seo/SEOHead';
 import { generateWebPageSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
+import { getPaperSeoPath, getPaperTitle, getPaperH1, getPaperDescription, getPaperBreadcrumbs } from '../utils/seoUtils';
 import { Clock, FileText, Award, Shield } from 'lucide-react';
 
 const PaperLandingPage: React.FC = () => {
-  const { paperId } = useParams<{ paperId: string }>();
+  const { exam, year, session, subject } = useParams<{ exam: string, year: string, session: string, subject: string }>();
   const navigate = useNavigate();
 
-  const paper = PAPERS.find((p) => p.id === paperId);
+  // Find the paper by matching the generated SEO path to the requested parameters
+  const requestedPath = `/${exam?.toLowerCase()}/${year}/${session}/${subject}/`;
+  const paper = PAPERS.find((p) => getPaperSeoPath(p) === requestedPath);
 
   if (!paper) {
     return (
       <div className="min-h-screen bg-dp-bg flex items-center justify-center">
+        <SEOHead noindex={true} />
         <div className="text-center">
           <h2 className="text-2xl font-bold text-dp-primary mb-2">Paper Not Found</h2>
           <p className="text-dp-secondary mb-4">The paper you are looking for does not exist.</p>
@@ -24,17 +28,16 @@ const PaperLandingPage: React.FC = () => {
   }
 
   const examPath = paper.examCode === 'NDA' ? '/nda' : '/cds';
-  const examName = paper.examCode === 'NDA' ? 'NDA' : 'CDS';
-  const paperTitle = `${examName} ${paper.year} ${paper.subject} Previous Year Paper`;
-  const description = `Practice the official ${paperTitle}. This paper has ${paper.totalQuestions} questions and is for ${paper.maximumMarks} marks. Start your mock test now.`;
+  const paperTitle = getPaperTitle(paper);
+  const paperH1 = getPaperH1(paper);
+  const description = getPaperDescription(paper);
+  const canonical = getPaperSeoPath(paper);
+
+  const breadcrumbsList = getPaperBreadcrumbs(paper);
 
   const schema = [
-    generateWebPageSchema(paperTitle, description, `/papers/${paper.id}`),
-    generateBreadcrumbSchema([
-      { name: "Home", item: "/" },
-      { name: "Papers", item: "/papers" },
-      { name: paperTitle, item: `/papers/${paper.id}` }
-    ])
+    generateWebPageSchema(paperTitle, description, canonical),
+    generateBreadcrumbSchema(breadcrumbsList)
   ];
 
   return (
@@ -42,18 +45,21 @@ const PaperLandingPage: React.FC = () => {
       <SEOHead 
         title={paperTitle}
         description={description}
-        canonicalPath={`/papers/${paper.id}`}
+        canonicalPath={canonical}
         schema={schema}
       />
       
       <div className="max-w-4xl mx-auto px-4 py-16 md:py-24">
         {/* Breadcrumb visually (optional but good for UX) */}
-        <div className="text-xs font-semibold tracking-wider text-dp-muted mb-6 uppercase flex items-center gap-2">
-          <Link to="/" className="hover:text-dp-primary transition-colors">Home</Link>
-          <span>/</span>
-          <Link to="/papers" className="hover:text-dp-primary transition-colors">Papers</Link>
-          <span>/</span>
-          <span className="text-teal-400">{paper.id}</span>
+        <div className="text-xs font-semibold tracking-wider text-dp-muted mb-6 uppercase flex flex-wrap items-center gap-2">
+          {breadcrumbsList.map((crumb, i) => (
+            <React.Fragment key={crumb.item}>
+              <Link to={crumb.item!} className={`${i === breadcrumbsList.length - 1 ? 'text-teal-400' : 'hover:text-dp-primary transition-colors'}`}>
+                {crumb.name}
+              </Link>
+              {i < breadcrumbsList.length - 1 && <span>/</span>}
+            </React.Fragment>
+          ))}
         </div>
 
         <div className="card-dp bg-dp-surface border border-dp p-8 md:p-12">
@@ -63,12 +69,11 @@ const PaperLandingPage: React.FC = () => {
           </div>
           
           <h1 className="text-3xl md:text-5xl font-black text-dp-primary mb-4 leading-tight">
-            {paper.paperName}
+            {paperH1}
           </h1>
           
           <p className="text-base text-dp-secondary mb-10 max-w-2xl leading-relaxed">
-            Attempt the official {examName} {paper.year} {paper.subject} paper in a timed, real-exam environment. 
-            Analyze your performance, accuracy, and speed to improve your score.
+            {description}
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 pt-8 border-t border-dp">
@@ -113,7 +118,7 @@ const PaperLandingPage: React.FC = () => {
               Start Mock Test Now
             </button>
             <Link to={examPath} className="btn-secondary py-4 px-8 text-base font-bold text-center">
-              View {examName} Details
+              View {paper.examCode} Details
             </Link>
           </div>
         </div>

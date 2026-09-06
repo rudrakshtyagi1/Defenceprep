@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Home, ArrowLeft } from 'lucide-react';
+import SEOHead from '../components/seo/SEOHead';
 
 const NotFoundPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-dp-bg flex flex-col items-center justify-center p-8 text-center relative">
+      <SEOHead title="Page Not Found | DefencePrep" noindex={true} />
       {/* Dot grid background */}
       <div className="absolute inset-0 dot-grid opacity-20" />
 

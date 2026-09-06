@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { attemptService } from '../services/attemptService';
+import SEOHead from '../components/seo/SEOHead';
 import {
   XAxis,
   YAxis,
@@ -66,6 +67,7 @@ const PerformancePage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-dp-bg pb-16">
+      <SEOHead title="Performance Analytics | DefencePrep" noindex={true} />
       {/* Header */}
       <div
         className="py-12 px-4 md:px-8 relative overflow-hidden"
