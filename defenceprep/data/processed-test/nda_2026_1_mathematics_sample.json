@@ -1,0 +1,212 @@
+{
+  "paper": {
+    "exam": "NDA",
+    "year": 2026,
+    "cycle": 1,
+    "subject": "Mathematics",
+    "sourceFile": "NDA2026(1)MATHEMATICS.pdf",
+    "pageCount": 48,
+    "language": "English",
+    "totalExpectedQuestions": 120,
+    "markingScheme": {
+      "positive": 2.5,
+      "negative": 0.83,
+      "durationMinutes": 150
+    }
+  },
+  "questions": [
+    {
+      "questionNumber": 1,
+      "text": "Let p, q and r be three unequal numbers such that p, q and r are in AP. If (q - p), (r - q) and p are in GP, then (p + q) : (q + r) : (r + p) equals",
+      "options": {
+        "A": "1 : 2 : 3",
+        "B": "3 : 4 : 5",
+        "C": "3 : 5 : 4",
+        "D": "1 : 3 : 2"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Sequences and Series (AP & GP)",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "source": {
+        "page": 3,
+        "column": "left"
+      }
+    },
+    {
+      "questionNumber": 2,
+      "text": "If p, g₁, g₂ and q are in GP and m is the arithmetic mean of p and q, then (g₁²/g₂ + g₂²/g₁) is equal to",
+      "options": {
+        "A": "m",
+        "B": "2m",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Geometric Progression (Geometric Means)",
+      "extractionConfidence": 0.94,
+      "needsReview": false,
+      "warning": "Visual verification confirmed variable notation represents geometric means g₁, g₂ with expression g₁²/g₂ + g₂²/g₁",
+      "source": {
+        "page": 3,
+        "column": "left"
+      }
+    },
+    {
+      "questionNumber": 3,
+      "text": "Consider the following inequalities :\nI. 1 + 4i > 3 + 2i\nII. 2 + 3i < 3 + 4i\nIII. 4 + 3i > 3 + 4i\nwhere i = √(-1)\nHow many of the above are valid ?",
+      "options": {
+        "A": "None",
+        "B": "One",
+        "C": "Two",
+        "D": "All the three"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Complex Numbers",
+      "extractionConfidence": 0.97,
+      "needsReview": false,
+      "source": {
+        "page": 3,
+        "column": "left"
+      }
+    },
+    {
+      "questionNumber": 4,
+      "text": "Let Z₁ and Z₂ be complex numbers such that (3Z₁)/(4Z₂) is purely imaginary. What is |(Z₁ + Z₂)/(Z₁ - Z₂)| equal to ?",
+      "options": {
+        "A": "2",
+        "B": "3/2",
+        "C": "5/4",
+        "D": "1"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Complex Numbers (Modulus & Arguments)",
+      "extractionConfidence": 0.96,
+      "needsReview": false,
+      "source": {
+        "page": 3,
+        "column": "right"
+      }
+    },
+    {
+      "questionNumber": 5,
+      "text": "If α, β, γ are cube roots of -8, then what is (α²p² + β²q² + γ²r²)/(β²p² + γ²q² + α²r²) equal to ?",
+      "options": {
+        "A": "γ/α",
+        "B": "γ/β",
+        "C": "2γ/α",
+        "D": "2γ/β"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Complex Numbers (Cube Roots of Unity)",
+      "extractionConfidence": 0.95,
+      "needsReview": false,
+      "source": {
+        "page": 3,
+        "column": "right"
+      }
+    },
+    {
+      "questionNumber": 6,
+      "text": "The sum of the first n terms of an AP is 3n² + 5n. If the mᵗʰ term of the AP is 68, then what is the value of m ?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Sequences and Series (AP Sum)",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "source": {
+        "page": 3,
+        "column": "right"
+      }
+    },
+    {
+      "questionNumber": 7,
+      "text": "A set S contains (2n + 1) elements. If the number of subsets of S which contain at most n elements is 1024, then what is the value of n ?",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "6",
+        "D": "5"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Sets and Relations (Subsets)",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "source": {
+        "page": 5,
+        "column": "left"
+      }
+    },
+    {
+      "questionNumber": 8,
+      "text": "What is the maximum number of points of intersection of 5 circles ?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Permutations and Combinations (Geometry)",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "source": {
+        "page": 5,
+        "column": "left"
+      }
+    },
+    {
+      "questionNumber": 9,
+      "text": "What is the greatest value of r satisfying the inequality ¹⁵Cᵣ₊₁ > 2 × ¹⁵Cᵣ ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Permutations and Combinations (Inequalities)",
+      "extractionConfidence": 0.96,
+      "needsReview": false,
+      "warning": "Combination index '15' in ¹⁵Cᵣ₊₁ visually verified from 300 DPI crop",
+      "source": {
+        "page": 5,
+        "column": "left"
+      }
+    },
+    {
+      "questionNumber": 10,
+      "text": "If n = ᵐC₂ then what is ⁿC₂ equal to ?",
+      "options": {
+        "A": "ᵐ⁺¹C₄",
+        "B": "2 × ᵐ⁺¹C₄",
+        "C": "3 × ᵐ⁺¹C₄",
+        "D": "ᵐ⁺²C₄"
+      },
+      "correctOption": null,
+      "subject": "Mathematics",
+      "topic": "Combinatorics (Binomial Coefficients)",
+      "extractionConfidence": 0.95,
+      "needsReview": false,
+      "warning": "Super-index algebraic combination notation ᵐ⁺¹C₄ preserved",
+      "source": {
+        "page": 5,
+        "column": "left"
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-09-06T17:15:00Z",
+  "pilotVersion": "1.0.0",
+  "totalPDFsFound": 3,
+  "documents": [
+    {
+      "filename": "NDA2025(2)GAT.pdf",
+      "fullPath": "/Users/rudrakshtyagi/Desktop/defenceprep/defenceprep/data/nda /NDA2025(2)GAT.pdf",
+      "relativePath": "defenceprep/data/nda /NDA2025(2)GAT.pdf",
+      "fileSizeBytes": 33015969,
+      "fileSizeMB": 31.49,
+      "pageCount": 56,
+      "hasTextLayer": false,
+      "isScanned": true,
+      "totalEmbeddedImages": 56,
+      "totalExtractedCharacters": 0,
+      "detectedMetadata": {
+        "exam": "NDA",
+        "year": 2025,
+        "cycle": 2,
+        "cycleLabel": "II",
+        "subject": "General Ability Test (GAT)",
+        "confidence": 0.98
+      },
+      "structure": {
+        "coverPages": [
+          1,
+          56
+        ],
+        "englishPagesPattern": "Part A (English) followed by bilingual Part B",
+        "hindiPagesPattern": "Bilingual alternate/facing pages",
+        "roughWorkPages": [
+          53,
+          54,
+          55
+        ],
+        "expectedQuestions": 150
+      },
+      "canOpen": true
+    },
+    {
+      "filename": "NDA2026(1)GAT.pdf",
+      "fullPath": "/Users/rudrakshtyagi/Desktop/defenceprep/defenceprep/data/nda /NDA2026(1)GAT.pdf",
+      "relativePath": "defenceprep/data/nda /NDA2026(1)GAT.pdf",
+      "fileSizeBytes": 27246978,
+      "fileSizeMB": 25.98,
+      "pageCount": 48,
+      "hasTextLayer": false,
+      "isScanned": true,
+      "totalEmbeddedImages": 48,
+      "totalExtractedCharacters": 0,
+      "detectedMetadata": {
+        "exam": "NDA",
+        "year": 2026,
+        "cycle": 1,
+        "cycleLabel": "I",
+        "subject": "General Ability Test (GAT)",
+        "confidence": 0.98
+      },
+      "structure": {
+        "coverPages": [
+          1,
+          48
+        ],
+        "englishPagesPattern": "Part A (English) followed by bilingual Part B",
+        "hindiPagesPattern": "Bilingual alternate/facing pages",
+        "roughWorkPages": [
+          45,
+          46,
+          47
+        ],
+        "expectedQuestions": 150
+      },
+      "canOpen": true
+    },
+    {
+      "filename": "NDA2026(1)MATHEMATICS.pdf",
+      "fullPath": "/Users/rudrakshtyagi/Desktop/defenceprep/defenceprep/data/nda /NDA2026(1)MATHEMATICS.pdf",
+      "relativePath": "defenceprep/data/nda /NDA2026(1)MATHEMATICS.pdf",
+      "fileSizeBytes": 31905422,
+      "fileSizeMB": 30.43,
+      "pageCount": 48,
+      "hasTextLayer": false,
+      "isScanned": true,
+      "totalEmbeddedImages": 48,
+      "totalExtractedCharacters": 0,
+      "detectedMetadata": {
+        "exam": "NDA",
+        "year": 2026,
+        "cycle": 1,
+        "cycleLabel": "I",
+        "subject": "Mathematics",
+        "confidence": 0.98
+      },
+      "structure": {
+        "coverPages": [
+          1,
+          48
+        ],
+        "englishPagesPattern": "Alternating odd pages (Pages 3, 5, 7, ... 43)",
+        "hindiPagesPattern": "Alternating even pages (Pages 2, 4, 6, ... 42)",
+        "roughWorkPages": [
+          45,
+          46,
+          47
+        ],
+        "expectedQuestions": 120
+      },
+      "canOpen": true
+    }
+  ],
+  "sampleExtraction": {
+    "targetDocument": "NDA2026(1)MATHEMATICS.pdf",
+    "questionsExtracted": 10,
+    "validQuestionsCount": 10,
+    "needsReviewCount": 0,
+    "result": "PASS"
+  }
+}
