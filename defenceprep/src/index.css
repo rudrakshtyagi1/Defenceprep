@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg: #f8f9fa;
+    --color-surface: #ffffff;
+    --color-surface-2: #f1f3f5;
+    --color-border: #e2e8f0;
+    --color-text-primary: #0a0e1a;
+    --color-text-secondary: #4a5568;
+    --color-text-muted: #718096;
+    --color-accent-from: #00d4aa;
+    --color-accent-to: #3b82f6;
+    --color-accent-solid: #059669;
+    --color-success: #059669;
+    --color-error: #dc2626;
+    --color-warning: #d97706;
+  }
+
+  .dark {
+    --color-bg: #0a0e1a;
+    --color-surface: #111827;
+    --color-surface-2: #1a2234;
+    --color-border: #1e2d40;
+    --color-text-primary: #f0f4ff;
+    --color-text-secondary: #94a3b8;
+    --color-text-muted: #64748b;
+    --color-accent-from: #00d4aa;
+    --color-accent-to: #3b82f6;
+    --color-accent-solid: #10b981;
+    --color-success: #10b981;
+    --color-error: #ef4444;
+    --color-warning: #f59e0b;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .bg-dp-bg { background-color: var(--color-bg); }
+  .bg-dp-surface { background-color: var(--color-surface); }
+  .bg-dp-surface-2 { background-color: var(--color-surface-2); }
+  .border-dp { border-color: var(--color-border); }
+  .text-dp-primary { color: var(--color-text-primary); }
+  .text-dp-secondary { color: var(--color-text-secondary); }
+  .text-dp-muted { color: var(--color-text-muted); }
+
+  .gradient-accent {
+    background: linear-gradient(135deg, var(--color-accent-from), var(--color-accent-to));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-accent-bg {
+    background: linear-gradient(135deg, var(--color-accent-from), var(--color-accent-to));
+  }
+
+  .dot-grid {
+    background-image: radial-gradient(circle, var(--color-border) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .card-dp {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .card-dp:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    border-color: var(--color-accent-from);
+  }
+
+  .navbar-blur {
+    background-color: color-mix(in srgb, var(--color-bg) 80%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, var(--color-accent-from), var(--color-accent-to));
+    color: #0a0e1a;
+    font-weight: 600;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(0, 212, 170, 0.3);
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: var(--color-text-primary);
+    font-weight: 500;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--color-accent-from);
+    background-color: var(--color-surface-2);
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom focus styles */
+*:focus-visible {
+  outline: 2px solid var(--color-accent-from);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(0, 212, 170, 0.2);
+  color: var(--color-text-primary);
+}
+
+/* Smooth theme transitions */
+*, *::before, *::after {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Override transition for animations that need to be instant */
+.no-transition, .no-transition * {
+  transition: none !important;
+}
