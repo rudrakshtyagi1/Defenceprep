@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /test/
+Disallow: /results/
+Disallow: /dev/
+
+Sitemap: https://defenceprep.in/sitemap.xml

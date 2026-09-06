@@ -4,6 +4,8 @@ import { PAPERS, getUniqueYears, getUniqueSubjects } from '../data/papers';
 import PaperCard from '../components/papers/PaperCard';
 import PaperFilters from '../components/papers/PaperFilters';
 import { BookOpen } from 'lucide-react';
+import SEOHead from '../components/seo/SEOHead';
+import { generateWebPageSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 const PapersPage: React.FC = () => {
   const navigate = useNavigate();
@@ -52,8 +54,26 @@ const PapersPage: React.FC = () => {
     return result;
   }, [filters]);
 
+  const schema = [
+    generateWebPageSchema(
+      "All Previous Year Papers",
+      "Browse and attempt all previous year papers for NDA and CDS exams. Filter by year, subject, and exam.",
+      "/papers"
+    ),
+    generateBreadcrumbSchema([
+      { name: "Home", item: "/" },
+      { name: "Papers", item: "/papers" }
+    ])
+  ];
+
   return (
     <div className="min-h-screen bg-dp-bg">
+      <SEOHead 
+        title="All NDA & CDS Previous Year Papers"
+        description="Browse and attempt all previous year papers for NDA and CDS exams. Filter by year, subject, and exam."
+        canonicalPath="/papers"
+        schema={schema}
+      />
       {/* Page header */}
       <div
         className="py-14 px-4 md:px-8 relative overflow-hidden"

@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Shield, ChevronDown, ChevronUp, FileText, Users, Award, Stethoscope, ArrowRight, CheckCircle2, HelpCircle, BookOpen } from 'lucide-react';
 import { PAPERS } from '../data/papers';
 import PaperCard from '../components/papers/PaperCard';
+import SEOHead from '../components/seo/SEOHead';
+import { generateWebPageSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 interface FAQ {
   q: string;
@@ -36,18 +38,32 @@ export const NDAPage: React.FC = () => {
   const navigate = useNavigate();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
-  useEffect(() => {
-    document.title = 'NDA Previous Year Papers & Mock Tests | DefencePrep';
-  }, []);
-
   const ndaPapers = PAPERS.filter((p) => p.examCode === 'NDA').slice(0, 6);
 
   const toggleFaq = (idx: number) => {
     setOpenFaq(openFaq === idx ? null : idx);
   };
 
+  const schema = [
+    generateWebPageSchema(
+      "NDA Previous Year Papers & Mock Tests",
+      "Practice NDA previous year papers. Explore examination patterns, eligibility criteria, comprehensive syllabus, and attempt real previous year papers under timed conditions.",
+      "/nda"
+    ),
+    generateBreadcrumbSchema([
+      { name: "Home", item: "/" },
+      { name: "NDA Papers", item: "/nda" }
+    ])
+  ];
+
   return (
     <div className="min-h-screen bg-dp-bg pb-20">
+      <SEOHead 
+        title="NDA Previous Year Papers & Mock Tests"
+        description="Practice NDA previous year papers. Explore examination patterns, eligibility criteria, comprehensive syllabus, and attempt real previous year papers under timed conditions."
+        canonicalPath="/nda"
+        schema={schema}
+      />
       {/* Hero */}
       <section className="relative py-16 md:py-24 px-4 md:px-8 border-b border-dp bg-dp-surface overflow-hidden">
         <div className="absolute inset-0 dot-grid opacity-20" />

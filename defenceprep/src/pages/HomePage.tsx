@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import SEOHead from '../components/seo/SEOHead';
+import { generateWebSiteSchema, generateOrganizationSchema } from '../utils/seoSchemas';
 import HeroSection from '../components/home/HeroSection';
 import ChooseExamSection from '../components/home/ChooseExamSection';
 import PreviousPapersSection from '../components/home/PreviousPapersSection';
@@ -10,12 +12,14 @@ import CDSOverviewSection from '../components/home/CDSOverviewSection';
 import FinalCTASection from '../components/home/FinalCTASection';
 
 export const HomePage: React.FC = () => {
-  useEffect(() => {
-    document.title = 'NDA & CDS Previous Year Papers | DefencePrep';
-  }, []);
-
   return (
     <div className="flex flex-col min-h-screen bg-dp-bg">
+      <SEOHead 
+        title="NDA & CDS Previous Year Papers | Online Practice Tests"
+        description="Attempt real NDA and CDS previous year papers in timed exam conditions. Analyse your mistakes, track performance, and improve with every test."
+        canonicalPath="/"
+        schema={[generateWebSiteSchema(), generateOrganizationSchema()]}
+      />
       {/* SECTION 1 — HERO */}
       <HeroSection />
 

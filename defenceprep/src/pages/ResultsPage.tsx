@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+import SEOHead from '../components/seo/SEOHead';
 import { attemptService } from '../services/attemptService';
 import { getQuestionsForPaper } from '../data/questions';
 import type { AttemptResult } from '../types';
@@ -94,6 +95,11 @@ const ResultsPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-dp-bg pb-16">
+      <SEOHead 
+        title={`Results: ${attempt.paper.paperName}`}
+        description="Your test result and analysis."
+        noindex={true}
+      />
       {/* Header */}
       <div
         className="sticky top-0 z-30 flex items-center justify-between px-4 md:px-6 py-3"

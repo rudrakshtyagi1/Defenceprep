@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './context/ThemeContext';
 import MainLayout from './layouts/MainLayout';
 import TestLayout from './layouts/TestLayout';
@@ -9,6 +10,7 @@ const HomePage = lazy(() => import('./pages/HomePage'));
 const PapersPage = lazy(() => import('./pages/PapersPage'));
 const NDAPage = lazy(() => import('./pages/NDAPage'));
 const CDSPage = lazy(() => import('./pages/CDSPage'));
+const PaperLandingPage = lazy(() => import('./pages/PaperLandingPage'));
 const TestPage = lazy(() => import('./pages/TestPage'));
 const ResultsPage = lazy(() => import('./pages/ResultsPage'));
 const PerformancePage = lazy(() => import('./pages/PerformancePage'));
@@ -46,35 +48,38 @@ const PageLoader: React.FC = () => (
 
 function App() {
   return (
-    <ThemeProvider>
-      <BrowserRouter>
-        <Suspense fallback={<PageLoader />}>
-          <Routes>
-            {/* Main layout: nav + footer */}
-            <Route element={<MainLayout />}>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/papers" element={<PapersPage />} />
-              <Route path="/nda" element={<NDAPage />} />
-              <Route path="/cds" element={<CDSPage />} />
-              <Route path="/performance" element={<PerformancePage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/results/:attemptId" element={<ResultsPage />} />
-            </Route>
+    <HelmetProvider>
+      <ThemeProvider>
+        <BrowserRouter>
+          <Suspense fallback={<PageLoader />}>
+            <Routes>
+              {/* Main layout: nav + footer */}
+              <Route element={<MainLayout />}>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/papers" element={<PapersPage />} />
+                <Route path="/papers/:paperId" element={<PaperLandingPage />} />
+                <Route path="/nda" element={<NDAPage />} />
+                <Route path="/cds" element={<CDSPage />} />
+                <Route path="/performance" element={<PerformancePage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/results/:attemptId" element={<ResultsPage />} />
+              </Route>
 
-            {/* Test layout: no nav, focused exam mode */}
-            <Route element={<TestLayout />}>
-              <Route path="/test/:paperId" element={<TestPage />} />
-            </Route>
+              {/* Test layout: no nav, focused exam mode */}
+              <Route element={<TestLayout />}>
+                <Route path="/test/:paperId" element={<TestPage />} />
+              </Route>
 
-            {/* Development-only preview route */}
-            <Route path="/dev/paper-test" element={<DevPaperTestPage />} />
+              {/* Development-only preview route */}
+              <Route path="/dev/paper-test" element={<DevPaperTestPage />} />
 
-            {/* 404 */}
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </Suspense>
-      </BrowserRouter>
-    </ThemeProvider>
+              {/* 404 */}
+              <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+          </Suspense>
+        </BrowserRouter>
+      </ThemeProvider>
+    </HelmetProvider>
   );
 }
 

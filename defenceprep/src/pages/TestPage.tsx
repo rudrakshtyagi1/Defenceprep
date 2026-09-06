@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import SEOHead from '../components/seo/SEOHead';
 import { getPaperById } from '../data/papers';
 import { getQuestionsForPaper } from '../data/questions';
 import { useTestEngine } from '../hooks/useTestEngine';
@@ -97,6 +98,11 @@ const TestPage: React.FC = () => {
 
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-dp-bg">
+      <SEOHead 
+        title={`${paper.paperName} | Test Mode`}
+        description="Active test session."
+        noindex={true}
+      />
       {/* Top Bar */}
       <TestTopBar
         examName={paper.examCode}

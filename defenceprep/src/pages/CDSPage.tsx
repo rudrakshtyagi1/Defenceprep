@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Award, ChevronDown, ChevronUp, ArrowRight, HelpCircle } from 'lucide-react';
 import { PAPERS } from '../data/papers';
 import PaperCard from '../components/papers/PaperCard';
+import SEOHead from '../components/seo/SEOHead';
+import { generateWebPageSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 interface FAQ {
   q: string;
@@ -36,18 +38,32 @@ export const CDSPage: React.FC = () => {
   const navigate = useNavigate();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
-  useEffect(() => {
-    document.title = 'CDS Previous Year Papers & Mock Tests | DefencePrep';
-  }, []);
-
   const cdsPapers = PAPERS.filter((p) => p.examCode === 'CDS').slice(0, 6);
 
   const toggleFaq = (idx: number) => {
     setOpenFaq(openFaq === idx ? null : idx);
   };
 
+  const schema = [
+    generateWebPageSchema(
+      "CDS Previous Year Papers & Mock Tests",
+      "Practice CDS previous year papers. Discover academy options, customizable paper combinations, qualifying criteria, and attempt authentic UPSC past papers.",
+      "/cds"
+    ),
+    generateBreadcrumbSchema([
+      { name: "Home", item: "/" },
+      { name: "CDS Papers", item: "/cds" }
+    ])
+  ];
+
   return (
     <div className="min-h-screen bg-dp-bg pb-20">
+      <SEOHead 
+        title="CDS Previous Year Papers & Mock Tests"
+        description="Practice CDS previous year papers. Discover academy options, customizable paper combinations, qualifying criteria, and attempt authentic UPSC past papers."
+        canonicalPath="/cds"
+        schema={schema}
+      />
       {/* Hero */}
       <section className="relative py-16 md:py-24 px-4 md:px-8 border-b border-dp bg-dp-surface overflow-hidden">
         <div className="absolute inset-0 dot-grid opacity-20" />
