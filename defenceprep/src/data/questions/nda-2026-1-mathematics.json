@@ -1,0 +1,3510 @@
+{
+  "paper": {
+    "id": "nda-2026-1-mathematics",
+    "exam": "NDA",
+    "year": 2026,
+    "cycle": 1,
+    "subject": "Mathematics",
+    "totalQuestions": 120,
+    "durationMinutes": 150,
+    "maximumMarks": 300,
+    "language": "English",
+    "sourceFile": "data/nda/NDA2026(1)MATHEMATICS.pdf",
+    "markingScheme": {
+      "positive": 2.5,
+      "negative": 0.83
+    }
+  },
+  "questions": [
+    {
+      "questionNumber": 1,
+      "text": "Let p, q and r be three unequal numbers such that p, q and r are in AP. If (q - p), (r - q) and p are in GP, then (p + q) : (q + r) : (r + p) equals",
+      "options": {
+        "A": "1 : 2 : 3",
+        "B": "3 : 4 : 5",
+        "C": "3 : 5 : 4",
+        "D": "1 : 3 : 2"
+      },
+      "pageNumber": 3,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q1.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 3,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.055,
+          0.5,
+          0.296
+        ]
+      },
+      "topic": "Sequences and Series (AP & GP)"
+    },
+    {
+      "questionNumber": 2,
+      "text": "If p, g₁, g₂ and q are in GP and m is the arithmetic mean of p and q, then (g₁²/g₂ + g₂²/g₁) is equal to",
+      "options": {
+        "A": "m",
+        "B": "2m",
+        "C": "1",
+        "D": "1/2"
+      },
+      "pageNumber": 3,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q2.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.94,
+      "needsReview": false,
+      "warning": "Visual verification confirmed variable notation represents geometric means g₁, g₂ with expression g₁²/g₂ + g₂²/g₁",
+      "correctOption": null,
+      "source": {
+        "page": 3,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.286,
+          0.5,
+          0.575
+        ]
+      },
+      "topic": "Geometric Progression (Geometric Means)"
+    },
+    {
+      "questionNumber": 3,
+      "text": "Consider the following inequalities :\nI. 1 + 4i > 3 + 2i\nII. 2 + 3i < 3 + 4i\nIII. 4 + 3i > 3 + 4i\nwhere i = √(-1)\nHow many of the above are valid ?",
+      "options": {
+        "A": "None",
+        "B": "One",
+        "C": "Two",
+        "D": "All the three"
+      },
+      "pageNumber": 3,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q3.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.97,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 3,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.565,
+          0.5,
+          0.905
+        ]
+      },
+      "topic": "Complex Numbers"
+    },
+    {
+      "questionNumber": 4,
+      "text": "Let Z₁ and Z₂ be complex numbers such that (3Z₁)/(4Z₂) is purely imaginary. What is |(Z₁ + Z₂)/(Z₁ - Z₂)| equal to ?",
+      "options": {
+        "A": "2",
+        "B": "3/2",
+        "C": "5/4",
+        "D": "1"
+      },
+      "pageNumber": 3,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q4.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.96,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 3,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.053,
+          0.98,
+          0.387
+        ]
+      },
+      "topic": "Complex Numbers (Modulus & Arguments)"
+    },
+    {
+      "questionNumber": 5,
+      "text": "If α, β, γ are cube roots of -8, then what is (α²p² + β²q² + γ²r²)/(β²p² + γ²q² + α²r²) equal to ?",
+      "options": {
+        "A": "γ/α",
+        "B": "γ/β",
+        "C": "2γ/α",
+        "D": "2γ/β"
+      },
+      "pageNumber": 3,
+      "contentMode": "latex",
+      "latex": "If a, B, y are cube roots of -8, then\n2p? +B^q+y2y?\nB'p' + yẻ q' + orz equal to ?\nwhat is",
+      "sourceImage": "/questions/nda-2026-1-math/q5.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.95,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 3,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.377,
+          0.98,
+          0.717
+        ]
+      },
+      "topic": "Complex Numbers (Cube Roots of Unity)"
+    },
+    {
+      "questionNumber": 6,
+      "text": "The sum of the first n terms of an AP is 3n² + 5n. If the mᵗʰ term of the AP is 68, then what is the value of m ?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "pageNumber": 3,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q6.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 3,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.707,
+          0.98,
+          0.905
+        ]
+      },
+      "topic": "Sequences and Series (AP Sum)"
+    },
+    {
+      "questionNumber": 7,
+      "text": "A set S contains (2n + 1) elements. If the number of subsets of S which contain at most n elements is 1024, then what is the value of n ?",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "6",
+        "D": "5"
+      },
+      "pageNumber": 5,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q7.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 5,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.05,
+          0.5,
+          0.297
+        ]
+      },
+      "topic": "Sets and Relations (Subsets)"
+    },
+    {
+      "questionNumber": 8,
+      "text": "What is the maximum number of points of intersection of 5 circles ?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "pageNumber": 5,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q8.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 5,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.287,
+          0.5,
+          0.496
+        ]
+      },
+      "topic": "Permutations and Combinations (Geometry)"
+    },
+    {
+      "questionNumber": 9,
+      "text": "What is the greatest value of r satisfying the inequality ¹⁵Cᵣ₊₁ > 2 × ¹⁵Cᵣ ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "pageNumber": 5,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q9.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.96,
+      "needsReview": false,
+      "warning": "Combination index '15' in ¹⁵Cᵣ₊₁ visually verified from 300 DPI crop",
+      "correctOption": null,
+      "source": {
+        "page": 5,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.486,
+          0.5,
+          0.706
+        ]
+      },
+      "topic": "Permutations and Combinations (Inequalities)"
+    },
+    {
+      "questionNumber": 10,
+      "text": "If n = ᵐC₂ then what is ⁿC₂ equal to ?",
+      "options": {
+        "A": "ᵐ⁺¹C₄",
+        "B": "2 × ᵐ⁺¹C₄",
+        "C": "3 × ᵐ⁺¹C₄",
+        "D": "ᵐ⁺²C₄"
+      },
+      "pageNumber": 5,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q10.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.95,
+      "needsReview": false,
+      "warning": "Super-index algebraic combination notation ᵐ⁺¹C₄ preserved",
+      "correctOption": null,
+      "source": {
+        "page": 5,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.696,
+          0.5,
+          0.905
+        ]
+      },
+      "topic": "Combinatorics (Binomial Coefficients)"
+    },
+    {
+      "questionNumber": 11,
+      "text": "If the highest degree coefficient is\nequal to 1, then what is the total\nnumber of quadratic equations which\nare unchanged on squaring their roots?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "2",
+        "D": "None"
+      },
+      "pageNumber": 5,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q11.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 5,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.049,
+          0.98,
+          0.337
+        ]
+      }
+    },
+    {
+      "questionNumber": 12,
+      "text": "Let a andB be the roots of the\nquadratic equation x - 2bx + 2 = 0\nwhere b, c are positive real numbers.\nLet A be the arithmetic mean of a and\nß; and G be the geometric mean of a\nand ß. What are the roots of the qua-\ndratic equation x - (b+c)x+ bc=0?",
+      "options": {
+        "A": "A, G",
+        "B": "2A, G",
+        "C": "A, 2G",
+        "D": "2A, 2G"
+      },
+      "pageNumber": 5,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q12.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 5,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.327,
+          0.98,
+          0.671
+        ]
+      }
+    },
+    {
+      "questionNumber": 13,
+      "text": "If\n1-log1o2 = l0g10(5*+ 4*+ 3* +2*+1),\nthen what is a value ofx?",
+      "options": {
+        "A": "10",
+        "B": "",
+        "C": "1",
+        "D": "0"
+      },
+      "pageNumber": 5,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q13.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 5,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.661,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 14,
+      "text": "Let f (x) =\n6\n-1\n0\n3\n9\n9\nwhere q is any constant, then what is\ndx (J(x)) at x = O equal to?",
+      "options": {
+        "A": "-1 0",
+        "B": "",
+        "C": "1",
+        "D": "9 a-bp-ax-y"
+      },
+      "pageNumber": 7,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q14.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 7,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.081,
+          0.5,
+          0.382
+        ]
+      }
+    },
+    {
+      "questionNumber": 15,
+      "text": "Ifb-c q-r\n=k\ny-z\n9\ncaripx\nZ\nthen what is the value of k?",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": ""
+      },
+      "pageNumber": 7,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q15.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 7,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.372,
+          0.5,
+          0.611
+        ]
+      }
+    },
+    {
+      "questionNumber": 16,
+      "text": "Ifp,q, r are the cube roots of unity,\nthen what is\n9'+r?\n2\nequal to ?\nr+ p?",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "4"
+      },
+      "pageNumber": 7,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q16.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 7,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.601,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 17,
+      "text": "If A is a square matrix such that\nIAI=-2,then |AA|,where AT is the\ntranspose of A, is equal to",
+      "options": {
+        "A": "-4",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "pageNumber": 7,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q17.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 7,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.05,
+          0.98,
+          0.29
+        ]
+      }
+    },
+    {
+      "questionNumber": 18,
+      "text": "Consider the following statements:\nI. If nxn (n>1) matrix is sym-\nmetric, then its inverse is also a\nsymmetric matrix.\nII. If n xn (n > 1) matrix is singular,\nthen its adjoint is also a singular\nmatrix.\nWhich of the statements given above\nis/are correct ?",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II 2 0 0"
+      },
+      "pageNumber": 7,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q18.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 7,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.28,
+          0.98,
+          0.698
+        ]
+      }
+    },
+    {
+      "questionNumber": 19,
+      "text": "If M=\nthen what is the\n2\n0\n0\n0\n0\n2\nvalue of |M| |adjM| ?",
+      "options": {
+        "A": "8",
+        "B": "64",
+        "C": "256",
+        "D": "512"
+      },
+      "pageNumber": 7,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q19.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 7,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.688,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 20,
+      "text": "If\nwhere k is a\nk-1\nnatural number, then what is\n[M,+ M2|+|M3|+..+| Msol equal to ?",
+      "options": {
+        "A": "50",
+        "B": "1250",
+        "C": "2500",
+        "D": "5000"
+      },
+      "pageNumber": 9,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q20.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 9,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.063,
+          0.5,
+          0.306
+        ]
+      }
+    },
+    {
+      "questionNumber": 21,
+      "text": "If M' is the transpose of a 2 x 2 matrix\nM, then which of the following is/are\ncorrect ?\nI. |M+M*|=|M| +|M™| ifM is sym-\nmetric.\nII. IM+MT|=0 if M is anti-sym-\nmetric.\nSelect the answer using the code given\nbelow:",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 9,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q21.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 9,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.296,
+          0.5,
+          0.706
+        ]
+      }
+    },
+    {
+      "questionNumber": 22,
+      "text": "If M is a square matrix such that\nM3 = M, then how many values of |M|\nare possible?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "pageNumber": 9,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q22.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 9,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.696,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 23,
+      "text": "Let p = (x + y + z) and q = xyz. If\nis positive, then which one\n1\nZ\nof the following is correct?",
+      "options": {
+        "A": "q > р",
+        "B": "q+1>p",
+        "C": "q +2 > p",
+        "D": "q +2 ≥p"
+      },
+      "pageNumber": 9,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q23.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 9,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.049,
+          0.98,
+          0.325
+        ]
+      }
+    },
+    {
+      "questionNumber": 24,
+      "text": "What is\n(((ANB) U (A-B))-\n((ANB) U (B-A))) U A\nequal to ?",
+      "options": {
+        "A": "Ф",
+        "B": "A B",
+        "C": "",
+        "D": "AUB"
+      },
+      "pageNumber": 9,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q24.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 9,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.315,
+          0.98,
+          0.55
+        ]
+      }
+    },
+    {
+      "questionNumber": 25,
+      "text": "Let A and B be two sets. For some\nset C, both ANC and BNC are empty\nsets and AUC = BUC. Which of the\nfollowing is/are true ?\nI. C = Ф\nII. A=B\nII. AUB=C\nSelect the answer using the code given\nbelow:",
+      "options": {
+        "A": "Ionly",
+        "B": "II only",
+        "C": "I and II only",
+        "D": "I, II and III"
+      },
+      "pageNumber": 9,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q25.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 9,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.54,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 26,
+      "text": "If 2 sec 4ß = tan 2a + cot 2a, then\nis a\nwhich one of the following\npossible value of (a + B) ?\na)\nП",
+      "options": {
+        "A": "",
+        "B": "-",
+        "C": "",
+        "D": "8"
+      },
+      "pageNumber": 11,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q26.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 11,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.053,
+          0.5,
+          0.366
+        ]
+      }
+    },
+    {
+      "questionNumber": 27,
+      "text": "If a and B are complementary angles\nsuch that a - B = \"\nand m tan ß =\nm+n\nn tana, then what is\nequal to ?\nm-n",
+      "options": {
+        "A": "2",
+        "B": "V3",
+        "C": "1",
+        "D": "V3"
+      },
+      "pageNumber": 11,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q27.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 11,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.356,
+          0.5,
+          0.693
+        ]
+      }
+    },
+    {
+      "questionNumber": 28,
+      "text": "If x = seco - tan0 and\ny = cosece + coto,\nthen which one of the following is\ncorrect?",
+      "options": {
+        "A": "x + y - хy -1= 0",
+        "B": "x-y+xy+1=0",
+        "C": "x+y+ xy-1=0",
+        "D": "x -y + xy -1= 0"
+      },
+      "pageNumber": 11,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q28.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 11,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.683,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 29,
+      "text": "If coso =\n3 then what is the value of\n30\nSIn\nsin\n2\n5",
+      "options": {
+        "A": "",
+        "B": "10",
+        "C": "11",
+        "D": ""
+      },
+      "pageNumber": 11,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q29.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 11,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.069,
+          0.98,
+          0.4
+        ]
+      }
+    },
+    {
+      "questionNumber": 30,
+      "text": "cosx + V3 sinx is maximum when x is\nequai to",
+      "options": {
+        "A": "",
+        "B": "- 3",
+        "C": "4",
+        "D": "-"
+      },
+      "pageNumber": 11,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q30.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 11,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.39,
+          0.98,
+          0.678
+        ]
+      }
+    },
+    {
+      "questionNumber": 31,
+      "text": "If e lies in the fourth quadrant and\n3 cot 0 + 4 = 0, then what is the value\nof sin 20.+ cos 20?\n31",
+      "options": {
+        "A": "25 17",
+        "B": "- 25 0",
+        "C": ".",
+        "D": "1"
+      },
+      "pageNumber": 11,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q31.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 11,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.668,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 32,
+      "text": "If cosa + cosß = 0 = sina + sinß,\na‡ B then what is a value of\ncos 2a + cos 2ß + 2 cos(a + ß) ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "pageNumber": 13,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q32.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 13,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.055,
+          0.5,
+          0.288
+        ]
+      }
+    },
+    {
+      "questionNumber": 33,
+      "text": "In a triangle ABC, sin A = cosB + cosC\nB\nB\n+ cot\nthen what is tan\nequal\n2\nto?\na) 1\nV2",
+      "options": {
+        "A": "",
+        "B": "V3 (с)",
+        "C": "",
+        "D": "2"
+      },
+      "pageNumber": 13,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q33.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 13,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.278,
+          0.5,
+          0.55
+        ]
+      }
+    },
+    {
+      "questionNumber": 34,
+      "text": "Consider the following inrespect of\ninverse circular functions:\nI. sin\"(-x) = - sin'x\nII. cos '(-x) = cos'x\nIII. tan '(-x) = x-tan'x\nIV. cot'(-x) = \"t-cot'x\nHow many of the above are correct ?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "All the four"
+      },
+      "pageNumber": 13,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q34.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 13,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.54,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 35,
+      "text": "What is tan\nequal to ?",
+      "options": {
+        "A": "-7",
+        "B": "0",
+        "C": "1",
+        "D": ""
+      },
+      "pageNumber": 13,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q35.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 13,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.074,
+          0.98,
+          0.318
+        ]
+      }
+    },
+    {
+      "questionNumber": 36,
+      "text": "The angles A, B and C of a triangle are\nin the ratio 1 : 1 : 4. If the longest side\nof the triangle is 3 units, then what is\nthe perimeter of the triangle?",
+      "options": {
+        "A": "3 + N3 units",
+        "B": "3+ 2v3 units",
+        "C": "3+ 3V3 units",
+        "D": "6+ V3 units"
+      },
+      "pageNumber": 13,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q36.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 13,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.308,
+          0.98,
+          0.562
+        ]
+      }
+    },
+    {
+      "questionNumber": 37,
+      "text": "In a triangle ABC, if a, b and c are the\nlengths of the sides opposite to the\nangles A, B and Crespectively, then\nsin(A-B)\nwhat is\nequal to ?\nsin(A+ B)",
+      "options": {
+        "A": "ả - b2",
+        "B": "ả +b' ả-b2",
+        "C": "ả -b2",
+        "D": "b2"
+      },
+      "pageNumber": 13,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q37.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 13,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.552,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 38,
+      "text": "What is the smallest positive x satis-\nfying logsinx cosx + logcosx sinx = 2?",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 15,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q38.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 15,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.047,
+          0.5,
+          0.361
+        ]
+      }
+    },
+    {
+      "questionNumber": 39,
+      "text": "A plane is observed to be approaching\nthe airport. It is at a distance of 10 km\nfrom the point of observation and\nmakes an angle of elevation of 67-5°\nWhat is the height of the plane above\nthe ground?",
+      "options": {
+        "A": "10v2+v2 km",
+        "B": "10v2-N2 km",
+        "C": "5v2+N2 km",
+        "D": "5v2-V2 knl"
+      },
+      "pageNumber": 15,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q39.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 15,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.351,
+          0.5,
+          0.669
+        ]
+      }
+    },
+    {
+      "questionNumber": 40,
+      "text": "What is the length of the chord of a\nunit circle which subtends at the centre\nof the circle an angle of 45°?",
+      "options": {
+        "A": "2v2+V2 units",
+        "B": "2V2-V2 units",
+        "C": "V2+V2 units",
+        "D": "V2-V2 units"
+      },
+      "pageNumber": 15,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q40.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 15,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.659,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 41,
+      "text": "Let R be a relation on the set N of\nnatural numbers defined by\nR = {(x, y) : x, y € N and x= y}.\nWhich of the following statements\nis/are correct ?\nI. R is symmetric relation\nII. R is transitive relation\nSelect the answer using the code given\nbelow :",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 15,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q41.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 15,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.049,
+          0.98,
+          0.38
+        ]
+      }
+    },
+    {
+      "questionNumber": 42,
+      "text": "For a given k, what is the minimum\nvalueofx+kx+k2?",
+      "options": {
+        "A": "0",
+        "B": "4 3k2",
+        "C": "4",
+        "D": "2"
+      },
+      "pageNumber": 15,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q42.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 15,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.37,
+          0.98,
+          0.63
+        ]
+      }
+    },
+    {
+      "questionNumber": 43,
+      "text": "Consider the following statements :\nI. Vx+x+1=0 has two irrational\nroots.\nII. 5Vx-x-4=0 has two rational\nroots.\nWhich of the statements given above\nis/are correct ?",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 15,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q43.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 15,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.62,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 44,
+      "text": "How many numbers greater than 1000\ncan be formed using the digits 0, 1, 2\nand 3 (repetition of digits is not\nallowed) ?",
+      "options": {
+        "A": "24",
+        "B": "18 12",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 17,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q44.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 17,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.058,
+          0.5,
+          0.335
+        ]
+      }
+    },
+    {
+      "questionNumber": 45,
+      "text": "If pth term of an AP is k, then what is\nthe sum of pth term, (p +q)* term and\n(P-q)th term of the AP?",
+      "options": {
+        "A": "2k",
+        "B": "3k",
+        "C": "4k",
+        "D": "5k"
+      },
+      "pageNumber": 17,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q45.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 17,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.325,
+          0.5,
+          0.799
+        ]
+      }
+    },
+    {
+      "questionNumber": 46,
+      "text": "Consider the following statements :\nI. (u + v + f) is an integer.\nII. (f + v) is an integer.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 17,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q46.png",
+      "sharedContext": "For the next five (05) items that\nfollow:\nLet u be a positive integer and f be a\nreal number lying between 0 and 1.\nFurther, (Nz + 1)\"° = u + f and\n(VZ -1)'' - V",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 17,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.581,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 47,
+      "text": "What is the multiplicative inverse of\n(12+1)?",
+      "options": {
+        "A": "v",
+        "B": "vº-1 v2",
+        "C": "",
+        "D": "v2+ 1"
+      },
+      "pageNumber": 17,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q47.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 17,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.276,
+          0.98,
+          0.526
+        ]
+      }
+    },
+    {
+      "questionNumber": 48,
+      "text": "What is the value of (v + f) ?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0-5",
+        "D": "0•25"
+      },
+      "pageNumber": 17,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q48.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 17,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.516,
+          0.98,
+          0.724
+        ]
+      }
+    },
+    {
+      "questionNumber": 49,
+      "text": "What is the value of u ?",
+      "options": {
+        "A": "9725",
+        "B": "6971",
+        "C": "6726",
+        "D": "6725"
+      },
+      "pageNumber": 17,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q49.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 17,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.714,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 50,
+      "text": "What is the value of uv ?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0 < uv < 1",
+        "D": "1 < uv < 2"
+      },
+      "pageNumber": 19,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q50.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 19,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.05,
+          0.5,
+          0.467
+        ]
+      }
+    },
+    {
+      "questionNumber": 51,
+      "text": "What is the value of a?",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "pageNumber": 19,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q51.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nThe equation of a straight line which\npasses through the origin and makes an\nangle a (0 ≤ a ≤ 90°) with the line\nL: x+V3y+3/3 = 0 is x- V3y=0.",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 19,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.277,
+          0.5,
+          0.688
+        ]
+      }
+    },
+    {
+      "questionNumber": 52,
+      "text": "What is the angle made by the line L\nwith positive direction of y-axis?\n30°",
+      "options": {
+        "A": "45°",
+        "B": "(с) 60° 90°",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 19,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q52.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 19,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.678,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 53,
+      "text": "Consider the following statements :\nI. PQ is parallel to RS.\nII. PR is perpendicular to QS.\nWhich of the statements given above\nis/are correct ?",
+      "options": {
+        "A": "Ionly",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 19,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q53.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nP(-2, -3, 5), Q(4, -1, 5), R(6, - 4, 8)\nand S(2, -6,10) are four points.",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 19,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.049,
+          0.98,
+          0.438
+        ]
+      }
+    },
+    {
+      "questionNumber": 54,
+      "text": "What is (PQ2 + 2QS2-2PR2) equal\nto?",
+      "options": {
+        "A": "-1",
+        "B": "0 1",
+        "C": "",
+        "D": "2"
+      },
+      "pageNumber": 19,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q54.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 19,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.428,
+          0.98,
+          0.755
+        ]
+      }
+    },
+    {
+      "questionNumber": 55,
+      "text": "What is the equation of the line L?",
+      "options": {
+        "A": "1-x=y+2=3-z",
+        "B": "-",
+        "C": "3x+3=2y-4=6z+18",
+        "D": "3x -3 =2y +4=6z-18"
+      },
+      "pageNumber": 19,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q55.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nA lineL passing throughthe point\n(-1, 2, -3) is perpendicular to the\nplane P given by 2x+ 3y+z + 5 = 0.",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 19,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.617,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 56,
+      "text": "What are the direction ratios of a line\nM parallel to the plane P?",
+      "options": {
+        "A": "<-3, 2, 1>",
+        "B": "<3,2,-6>",
+        "C": "<1,3,2>",
+        "D": "<2,2,-10>"
+      },
+      "pageNumber": 21,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q56.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 21,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.047,
+          0.5,
+          0.425
+        ]
+      }
+    },
+    {
+      "questionNumber": 57,
+      "text": "If p, q and r are in AP, then the points\nX, Y and Z are",
+      "options": {
+        "A": "on a straight line",
+        "B": "on a circle",
+        "C": "on a parabola",
+        "D": "the vertices of a triangle"
+      },
+      "pageNumber": 21,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q57.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nLet X(a, p), Y(b, q) and Z(c, r) be the\npoints such that a, b and c are in AP.",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 21,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.295,
+          0.5,
+          0.667
+        ]
+      }
+    },
+    {
+      "questionNumber": 58,
+      "text": "If p, q and r are not in AP and b= c,\nthen the line joining the points X, Y\nand Z is parallel to",
+      "options": {
+        "A": "y-axis",
+        "B": "x-axis",
+        "C": "y=x",
+        "D": "y=-x"
+      },
+      "pageNumber": 21,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q58.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 21,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.657,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 59,
+      "text": "If the points lie on a circle, then what\nis/are the possible value(s) of k?",
+      "options": {
+        "A": "2 only",
+        "B": "5 only",
+        "C": "2, 17",
+        "D": "5, 17"
+      },
+      "pageNumber": 21,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q59.png",
+      "sharedContext": "For the next two (02) items that\nfollow :\nConsider the points A(0, 2), B(2, 3),\nC(4,5) and D(0, k).",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 21,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.048,
+          0.98,
+          0.352
+        ]
+      }
+    },
+    {
+      "questionNumber": 60,
+      "text": "If a circle is drawn through A, B and\nD, then what is the diameter of the\ncircle ?",
+      "options": {
+        "A": "3v10",
+        "B": "5/10",
+        "C": "3V12",
+        "D": "5v12"
+      },
+      "pageNumber": 21,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q60.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 21,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.342,
+          0.98,
+          0.746
+        ]
+      }
+    },
+    {
+      "questionNumber": 61,
+      "text": "What is the value of p?\nV7",
+      "options": {
+        "A": "",
+        "B": "3 7",
+        "C": "",
+        "D": "9"
+      },
+      "pageNumber": 21,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q61.png",
+      "sharedContext": "For the next two (02) items that\nfollow :\nThe foci of the ellipse\npx' + 16y2 = 16р\nand the foci of the hyperbola\n25(81x2-144y2) = 11664\ncoincide (assume p < 16).",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 21,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.569,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 62,
+      "text": "What is the difference between the\neccentricities of the hyperbola and the\nellipse?\n0-5",
+      "options": {
+        "A": "",
+        "B": "0-75 1•0",
+        "C": "1•25",
+        "D": ""
+      },
+      "pageNumber": 23,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q62.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 23,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.051,
+          0.5,
+          0.427
+        ]
+      }
+    },
+    {
+      "questionNumber": 63,
+      "text": "What is the radius of the sphere\npassing through origin and concentric\nwith the sphere S?",
+      "options": {
+        "A": "",
+        "B": "5",
+        "C": "7",
+        "D": "Cannot be determined due to insufficient data"
+      },
+      "pageNumber": 23,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q63.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nThe equation of the sphere S is\nx2+y+z-4x-бy-12z+k=0.",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 23,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.295,
+          0.5,
+          0.709
+        ]
+      }
+    },
+    {
+      "questionNumber": 64,
+      "text": "If the radius of the sphere S is 8 units,\nwhat is the value of k?",
+      "options": {
+        "A": "-15",
+        "B": "7 (с) 10",
+        "C": "",
+        "D": "15"
+      },
+      "pageNumber": 23,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q64.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 23,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.699,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 65,
+      "text": "What is the angle between à and b?\nП",
+      "options": {
+        "A": "П",
+        "B": "4",
+        "C": "- 2л",
+        "D": "3"
+      },
+      "pageNumber": 23,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q65.png",
+      "sharedContext": "For the next two (02) items that\nfollow :\nLet ả, b, c, ả+b, b+c, à+b+ở\nbe unit vectors.",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 23,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.052,
+          0.98,
+          0.57
+        ]
+      }
+    },
+    {
+      "questionNumber": 66,
+      "text": "What is the angle between à and?",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "2п",
+        "D": ""
+      },
+      "pageNumber": 23,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q66.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 23,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.56,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 67,
+      "text": "Consider the following statements :\nI. à,b\n, c are orthogonal in paurs.\nII. a,b, č are unit vectors.\nWhich of the statements given above\nis/are correct ?",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 25,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q67.png",
+      "sharedContext": "For the next two (02) items that\nfollow :\nLet ả xb = c and b xc = ả",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 25,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.053,
+          0.5,
+          0.537
+        ]
+      }
+    },
+    {
+      "questionNumber": 68,
+      "text": "Consider the following statements :\n1. (ảx b). ở + (bxc) à\n= (čxà). b\nII. ((axb)x(bxờ)) b = 1\nWhich of the statements given above\nis/are correct?",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 25,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q68.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 25,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.527,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 69,
+      "text": "What is the value of (p+q)?",
+      "options": {
+        "A": "",
+        "B": "1",
+        "C": "",
+        "D": "2"
+      },
+      "pageNumber": 25,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q69.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nLet å,b, č be unit vectors. Further,\nà is perpendicular to b; č makes an\nwith both à and b; and\nП\nangle\n3\nc = pà + qb +r(ảx b).",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 25,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.052,
+          0.98,
+          0.625
+        ]
+      }
+    },
+    {
+      "questionNumber": 70,
+      "text": "What is the value of r2?",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "1",
+        "D": ""
+      },
+      "pageNumber": 25,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q70.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 25,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.615,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 71,
+      "text": "If f(x) is differentiable at x = a, then\nconsider the following statements :\nI. f(x) is continuous at x = a",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II Neither I nor II x(n'-1) - 1 equal to, where",
+        "D": ""
+      },
+      "pageNumber": 27,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q71.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 27,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.047,
+          0.5,
+          0.441
+        ]
+      }
+    },
+    {
+      "questionNumber": 72,
+      "text": "What is lim-\n*→1 x(n+l) - 1\nn > 1 is a natural number ?",
+      "options": {
+        "A": "0",
+        "B": "1 n- 1",
+        "C": "",
+        "D": "n+ 1 10sinx -1 equal to ?"
+      },
+      "pageNumber": 27,
+      "contentMode": "latex",
+      "latex": "What is lim-\n*→1 x(n+l) - 1\nn > 1 is a natural number ?",
+      "sourceImage": "/questions/nda-2026-1-math/q72.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 27,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.431,
+          0.5,
+          0.697
+        ]
+      }
+    },
+    {
+      "questionNumber": 73,
+      "text": "What is lim\ntanx\nx→0",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "In 10",
+        "D": "log10e"
+      },
+      "pageNumber": 27,
+      "contentMode": "latex",
+      "latex": "What is lim\ntanx\nx→0",
+      "sourceImage": "/questions/nda-2026-1-math/q73.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 27,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.687,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 74,
+      "text": "What is the derivative of\nrespect to x, where x < 0?",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "x"
+      },
+      "pageNumber": 27,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q74.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 27,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.053,
+          0.98,
+          0.274
+        ]
+      }
+    },
+    {
+      "questionNumber": 75,
+      "text": "Consider the following statements in\nrespect of the function f(x)=x in the\ninterval (-1,1):\nI. The function attains maximum\nvalue.\nII. The function attains minimum\nvalue.\nWhich of the statements given above\nis/are correct ?",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 27,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q75.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 27,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.264,
+          0.98,
+          0.652
+        ]
+      }
+    },
+    {
+      "questionNumber": 76,
+      "text": "If Vy=x+Vx+4, then what is\ndy\nVx' +4\n• equal to ?\ndx",
+      "options": {
+        "A": "",
+        "B": "у",
+        "C": "2y",
+        "D": "4y"
+      },
+      "pageNumber": 27,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q76.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 27,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.642,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 77,
+      "text": "What is the length of the longest\ninterval in which the function\nf(x) = 2cos'x - 1 is decreasing?\na)\n2T",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "d)",
+        "D": ""
+      },
+      "pageNumber": 29,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q77.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 29,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.05,
+          0.5,
+          0.309
+        ]
+      }
+    },
+    {
+      "questionNumber": 78,
+      "text": "If A and B are acute angles such that\n2A + 2B = T, then what is the maxi-\nmum value of sinA.sinB?\n1",
+      "options": {
+        "A": "- 1",
+        "B": "",
+        "C": "",
+        "D": "1"
+      },
+      "pageNumber": 29,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q78.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 29,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.299,
+          0.5,
+          0.584
+        ]
+      }
+    },
+    {
+      "questionNumber": 79,
+      "text": "What is the solution of the differential\ndy\n= p when y(0)= q ?\nequation cos",
+      "options": {
+        "A": "cos'",
+        "B": "cos Y=P)=9",
+        "C": "cos",
+        "D": ""
+      },
+      "pageNumber": 29,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q79.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 29,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.574,
+          0.5,
+          0.904
+        ]
+      }
+    },
+    {
+      "questionNumber": 80,
+      "text": "If 2f (x) + f(1-x) = x, then what is\nf (x) equal to ?",
+      "options": {
+        "A": "x-1",
+        "B": "",
+        "C": "2x",
+        "D": "2x-1"
+      },
+      "pageNumber": 29,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q80.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 29,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.047,
+          0.98,
+          0.352
+        ]
+      }
+    },
+    {
+      "questionNumber": 81,
+      "text": "What is\nequal to?\ndx",
+      "options": {
+        "A": "1 - ху",
+        "B": "1+ xy",
+        "C": "- ху",
+        "D": "1+ xy dy"
+      },
+      "pageNumber": 29,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q81.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nLet (e\")*-y = 0, where y is a function\nof x whose domain is (0, 10].\ndy",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 29,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.233,
+          0.98,
+          0.632
+        ]
+      }
+    },
+    {
+      "questionNumber": 82,
+      "text": "What is\n- equal to, given that y = yo\nwhen x=1?\n--",
+      "options": {
+        "A": "1+ eyo yoe\"",
+        "B": "1+ eo yoeo (с) 1+eo yoelo",
+        "C": "",
+        "D": "1-eyo"
+      },
+      "pageNumber": 29,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q82.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 29,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.622,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 83,
+      "text": "What is the value of k?",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "П",
+        "D": "2m 2 acosx+bsinx"
+      },
+      "pageNumber": 31,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q83.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nasinx+bcosx\n2\ndx= k\nLet\n(a+b)(sin x + cos x)\n0",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 31,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.061,
+          0.5,
+          0.417
+        ]
+      }
+    },
+    {
+      "questionNumber": 84,
+      "text": "What\nis\n-dx equal\nsinx + cosx\n0.\nto ?",
+      "options": {
+        "A": "k",
+        "B": "2k",
+        "C": "k k",
+        "D": "a+b"
+      },
+      "pageNumber": 31,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q84.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 31,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.407,
+          0.5,
+          0.78
+        ]
+      }
+    },
+    {
+      "questionNumber": 85,
+      "text": "What is T equal to ?",
+      "options": {
+        "A": "{x ≤ 2} U {x ≥ 3}",
+        "B": "{x<2} {x>3}",
+        "C": "",
+        "D": "[2, 3]"
+      },
+      "pageNumber": 31,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q85.png",
+      "sharedContext": "For the next two (02) items that\nfollow :\nLet S and T be the sets where\n5x\n+ 6x + 7 decreases and\nJ (x)=.\nincreases respectively.",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 31,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.617,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 86,
+      "text": "What is S equal to?",
+      "options": {
+        "A": "{x ≤ 2}U {x ≥3}",
+        "B": "{x<2} {x>33",
+        "C": "",
+        "D": "[2, 3]"
+      },
+      "pageNumber": 31,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q86.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 31,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.061,
+          0.98,
+          0.379
+        ]
+      }
+    },
+    {
+      "questionNumber": 87,
+      "text": "What is the area between the\ncurve y =sinx and the x-axis in the\ninterval\n?\n2",
+      "options": {
+        "A": "k",
+        "B": "1-k (п-k)",
+        "C": "(П-2k)",
+        "D": "2"
+      },
+      "pageNumber": 31,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q87.png",
+      "sharedContext": "For the next two (02) items that\nfollow :\nLet k be the area between the\ncurve y =sinx and x-axis in the\nП\ninterval\n0,\n4",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 31,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.216,
+          0.98,
+          0.658
+        ]
+      }
+    },
+    {
+      "questionNumber": 88,
+      "text": "What is the area between the\ncurve y = cosx and the x-axis in the\nП\ninterval\n?\n2\n4",
+      "options": {
+        "A": "k",
+        "B": "1-k (П-k)",
+        "C": "2 (П-2k)",
+        "D": "2"
+      },
+      "pageNumber": 31,
+      "contentMode": "image",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q88.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 31,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.648,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 89,
+      "text": "What is the number of points of\nintersection of the curves ?",
+      "options": {
+        "A": "4",
+        "B": "3 (с) 2",
+        "C": "",
+        "D": "None"
+      },
+      "pageNumber": 33,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q89.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nConsider the curves y = x2 and y = 2|xl.",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 33,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.052,
+          0.5,
+          0.328
+        ]
+      }
+    },
+    {
+      "questionNumber": 90,
+      "text": "What is the area bounded by the\ncurves, the lines x =0 and x=1?",
+      "options": {
+        "A": "1 square unit 2",
+        "B": "square unit 3",
+        "C": "square unit 2",
+        "D": "square unit"
+      },
+      "pageNumber": 33,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q90.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 33,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.318,
+          0.5,
+          0.746
+        ]
+      }
+    },
+    {
+      "questionNumber": 91,
+      "text": "What is the value of A?\n2",
+      "options": {
+        "A": "5",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 33,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q91.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nLet\nsin e de\n=\n(2 + cos0)(3+ 4cos0)\nA In |2 + cose|+ B In 3 + 4cose|",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 33,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.578,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 92,
+      "text": "What is the value of B?",
+      "options": {
+        "A": "-- 5",
+        "B": "5 1",
+        "C": "- 5",
+        "D": "follow: Let f(x) = sin x and g (x) - f(x) =f (4-x). 4 f (x)"
+      },
+      "pageNumber": 33,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q92.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 33,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.174,
+          0.98,
+          0.57
+        ]
+      }
+    },
+    {
+      "questionNumber": 93,
+      "text": "What is\n-dx equal to ?\n20g(x)",
+      "options": {
+        "A": "0",
+        "B": "1 2",
+        "C": "",
+        "D": "4 {(4-x) dx equal to?"
+      },
+      "pageNumber": 33,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q93.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nLet\nf(x) = sin x and g (x) - f(x) =f (4-x).\n4 f (x)",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 33,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.437,
+          0.98,
+          0.753
+        ]
+      }
+    },
+    {
+      "questionNumber": 94,
+      "text": "What is\n20 g(4-x)",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "pageNumber": 33,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q94.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 33,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.743,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 95,
+      "text": "What is the value of p?",
+      "options": {
+        "A": "-1 1",
+        "B": "",
+        "C": "",
+        "D": "1"
+      },
+      "pageNumber": 35,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q95.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nаx(x-1),\nx<1\nLet J (x)=x-1,\n1≤x≤3\npx +qx+2, x>3\nGiven that f(x) is continuous for all x\nbut not differentiable at x = 1. Further\nf'(x) is continuous at x= 3.",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 35,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.053,
+          0.5,
+          0.542
+        ]
+      }
+    },
+    {
+      "questionNumber": 96,
+      "text": "What is the value of q?",
+      "options": {
+        "A": "-1 1",
+        "B": "- 3",
+        "C": "",
+        "D": "1"
+      },
+      "pageNumber": 35,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q96.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 35,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.532,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 97,
+      "text": "What is\nequal to ?\ndy)\ndx",
+      "options": {
+        "A": "-2",
+        "B": "-1 0",
+        "C": "",
+        "D": "2"
+      },
+      "pageNumber": 35,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q97.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 35,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.067,
+          0.98,
+          0.275
+        ]
+      }
+    },
+    {
+      "questionNumber": 98,
+      "text": "What is the solution of the differential\nequation with y(0)=0?",
+      "options": {
+        "A": "y=In",
+        "B": "y = In",
+        "C": "2y=In",
+        "D": "2y = In"
+      },
+      "pageNumber": 35,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q98.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 35,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.265,
+          0.98,
+          0.608
+        ]
+      }
+    },
+    {
+      "questionNumber": 99,
+      "text": "If p(x) = f(x)g(x), then which of the\nfollowing statements is/are correct?\nI. p(x) is continuous at x= 0.\nII. p(x) is differentiable at x = 0.\nSelect the answer using the code given\nbelow :",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II Neither I nor II",
+        "D": ""
+      },
+      "pageNumber": 35,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q99.png",
+      "sharedContext": "For the nexttwo (02) items that\nfollow:\nLet f(x) = tan (x) and\nП\ng(x) = x|x| for |x| <\n2",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 35,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.466,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 100,
+      "text": "If q(x) =fog(x), then which of the\nfollowing statements is/are correct?\nI. q(x) is continuous at x= 0.\nII. q(x) is differentiable at x= 0.\nSelect the answer using the code given\nbelow :",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 37,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q100.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 37,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.055,
+          0.5,
+          0.515
+        ]
+      }
+    },
+    {
+      "questionNumber": 101,
+      "text": "What is the probability that the number\nselected is divisible by 2?\na)",
+      "options": {
+        "A": "",
+        "B": "8 1 C)",
+        "C": "",
+        "D": "24"
+      },
+      "pageNumber": 37,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q101.png",
+      "sharedContext": "For the next five (05) items that\nfollow :\nA 4-digit number is selected at random\nformed by using the digits 0, 1, 2, 3\nand 4 (where repetition of digits is not\nallowed):",
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 37,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.356,
+          0.5,
+          0.806
+        ]
+      }
+    },
+    {
+      "questionNumber": 102,
+      "text": "What is the probability that the number\nselected is divisible by 3?\na)\n28",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 37,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q102.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 37,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.796,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 103,
+      "text": "What is the probability that the number\nselected is divisible by 4?\na)\n(\n2",
+      "options": {
+        "A": "",
+        "B": "16 9",
+        "C": "16",
+        "D": "16"
+      },
+      "pageNumber": 37,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q103.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 37,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.261,
+          0.98,
+          0.603
+        ]
+      }
+    },
+    {
+      "questionNumber": 104,
+      "text": "What is the probability that the number\nselected is divisible by 6?\n7",
+      "options": {
+        "A": "48 NIm",
+        "B": "",
+        "C": "m100",
+        "D": ""
+      },
+      "pageNumber": 37,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q104.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 37,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.593,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 105,
+      "text": "What is the probability that the number\nselected does not contain zero at any\nposition?",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "= = 2 3 5"
+      },
+      "pageNumber": 39,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q105.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 39,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.05,
+          0.5,
+          0.441
+        ]
+      }
+    },
+    {
+      "questionNumber": 106,
+      "text": "Question 106 (See source image for complete mathematical expression)",
+      "options": {
+        "A": "+3P",
+        "B": "]",
+        "C": "21",
+        "D": "1"
+      },
+      "pageNumber": 39,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q106.png",
+      "sharedContext": "For the next three (03) items that\nfollow:\nLet A, B, C and D be mutually\nexclusive and exhaustive events and\nP(A)\nP(C)\nP(B)\nP(D)\n=\n=\n2\n3\n5",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 39,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.27,
+          0.5,
+          0.739
+        ]
+      }
+    },
+    {
+      "questionNumber": 107,
+      "text": "What is\nequal to ?",
+      "options": {
+        "A": "8 1 13",
+        "B": "60",
+        "C": "+5P",
+        "D": "]"
+      },
+      "pageNumber": 39,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q107.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 39,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.729,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 108,
+      "text": "Question 108 (See source image for complete mathematical expression)",
+      "options": {
+        "A": "179",
+        "B": "15à 134",
+        "C": "and P",
+        "D": "114"
+      },
+      "pageNumber": 39,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q108.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 39,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.191,
+          0.98,
+          0.598
+        ]
+      }
+    },
+    {
+      "questionNumber": 109,
+      "text": "What is the probability that getting a\ntotal of the numbers on the dice is 6?\n1",
+      "options": {
+        "A": "216",
+        "B": "324",
+        "C": "648 7",
+        "D": "648"
+      },
+      "pageNumber": 39,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q109.png",
+      "sharedContext": "For the next two (02) items that\nfollow:\nFour dice are rolled",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 39,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.483,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 110,
+      "text": "What is the probability that getting a\ntotal of the numbers on the dice is\nat least 23?.",
+      "options": {
+        "A": "1296",
+        "B": "432",
+        "C": "324 5",
+        "D": "1296"
+      },
+      "pageNumber": 41,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q110.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 41,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.049,
+          0.5,
+          0.366
+        ]
+      }
+    },
+    {
+      "questionNumber": 111,
+      "text": "Let two lines of regression be\nx+y+11=0 and 2x+3y+4=0 for\nsome data. What is the value of cor-\nrelation coefficient between x and y?",
+      "options": {
+        "A": "3 b) 2 C) 3 d) 6",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 41,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q111.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 41,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.356,
+          0.5,
+          0.714
+        ]
+      }
+    },
+    {
+      "questionNumber": 112,
+      "text": "If the mean of 20 observations, namely\nx1, X2, X3, ..., X20 is 1-414, then what is\nthe value of 2?21100(2x; + 4)?",
+      "options": {
+        "A": "24168",
+        "B": "20828",
+        "C": "15248",
+        "D": "13656"
+      },
+      "pageNumber": 41,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q112.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 41,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.704,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 113,
+      "text": "In an entrance, test there are multiple\nchoice questions. There arefour\noptions for each question, of which\nonly one is correct. The probability that\na student knows the answer to a\nquestion is 90%. If he gets the correct\nanswer to a question, then what is the\nprobability that he was guessing ?\n37",
+      "options": {
+        "A": "40",
+        "B": "37",
+        "C": "37",
+        "D": "40"
+      },
+      "pageNumber": 41,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q113.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 41,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.05,
+          0.98,
+          0.517
+        ]
+      }
+    },
+    {
+      "questionNumber": 114,
+      "text": "Consider the following statements in\nrespect of the events A, B, C:\nI. (AUBUC)N(ANBNC) is an\nimpossible event.\nII. (ANBNC)N(AUBUC) is a\npossible event.\nWhich of the statements given above\nis/are correct ?",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "pageNumber": 41,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q114.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 41,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.507,
+          0.98,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 115,
+      "text": "The standard deviation of 100 obser-\nvations is 10. If 5 is multiplied to each\nof the observations, then what is the\nnew standard deviation?",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "40",
+        "D": "50"
+      },
+      "pageNumber": 43,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q115.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 43,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.058,
+          0.5,
+          0.264
+        ]
+      }
+    },
+    {
+      "questionNumber": 116,
+      "text": "For a Binomial distribution with mean\n6and standard deviation V2, what is\nthe value of P(X=0)?",
+      "options": {
+        "A": "9",
+        "B": "wI- N",
+        "C": "",
+        "D": ""
+      },
+      "pageNumber": 43,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q116.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 43,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.254,
+          0.5,
+          0.594
+        ]
+      }
+    },
+    {
+      "questionNumber": 117,
+      "text": "If the random variable X has mean 3\nand standard deviation 5, then what is\nthe variance of the random variable\nY=2X-5?",
+      "options": {
+        "A": "15",
+        "B": "40",
+        "C": "45",
+        "D": "100"
+      },
+      "pageNumber": 43,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q117.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 43,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.584,
+          0.5,
+          0.788
+        ]
+      }
+    },
+    {
+      "questionNumber": 118,
+      "text": "Three events A, B and C are such\nthat A and B are disjoint, A and C\nare independent, B and C are inde-",
+      "options": {
+        "A": ", then what is the",
+        "B": "=P",
+        "C": "?",
+        "D": ""
+      },
+      "pageNumber": 43,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q118.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.88,
+      "needsReview": true,
+      "warning": "Option labels require visual verification from source image",
+      "correctOption": null,
+      "source": {
+        "page": 43,
+        "column": "left",
+        "cropBox": [
+          0.02,
+          0.778,
+          0.5,
+          0.905
+        ]
+      }
+    },
+    {
+      "questionNumber": 119,
+      "text": "What is the mean deviation about the\narithmetic mean?",
+      "options": {
+        "A": "5-5",
+        "B": "6",
+        "C": "6-5",
+        "D": "8"
+      },
+      "pageNumber": 43,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q119.png",
+      "sharedContext": "For the next two (02) items that\nfollow :\nThefrequencydistribution ofmarks\nobtained by 100 students in a certain\nsubject is given below:\n10-20\nMarks\n20-30\n0-10\n30-40\nNo. of\nf\n10\n40\n20\nstudents",
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 43,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.313,
+          0.98,
+          0.746
+        ]
+      }
+    },
+    {
+      "questionNumber": 120,
+      "text": "What is the standard deviation ?",
+      "options": {
+        "A": "8-5",
+        "B": "• 9",
+        "C": "9•5",
+        "D": "10"
+      },
+      "pageNumber": 43,
+      "contentMode": "text",
+      "latex": null,
+      "sourceImage": "/questions/nda-2026-1-math/q120.png",
+      "sharedContext": null,
+      "extractionConfidence": 0.98,
+      "needsReview": false,
+      "warning": null,
+      "correctOption": null,
+      "source": {
+        "page": 43,
+        "column": "right",
+        "cropBox": [
+          0.49,
+          0.736,
+          0.98,
+          0.905
+        ]
+      }
+    }
+  ]
+}
